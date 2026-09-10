@@ -16,13 +16,13 @@
 
 - **操作系统**：Windows 10 / Windows 11（x64）
 - **运行环境**：.NET 8.0 Desktop Runtime（或使用自包含发布版）
-- **磁盘空间**：约 50MB（自包含版约 150MB）
+- **磁盘空间**：约 1MB（自包含版约 91MB）
 
 ## 🚀 编译方法
 
 ### 使用 Visual Studio
 
-1. 安装 [Visual Studio 2022](https://visualstudio.microsoft.com/)（含 .NET 8.0 SDK 和 WPF 工作负载）
+1. 安装 [Visual Studio 最新版](https://visualstudio.microsoft.com/)（含 .NET 8.0 SDK 和 WPF 工作负载）
 2. 打开 `macOSClock.csproj`
 3. 菜单 `生成` → `生成解决方案`（或按 Ctrl+Shift+B）
 4. 编译产物在 `bin/Debug/net8.0-windows/`
